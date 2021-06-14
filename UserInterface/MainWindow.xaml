@@ -1,0 +1,31 @@
+﻿<Window x:Class="UserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface"
+        xmlns:uc="clr-namespace:UserInterface.UserControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Name="stkPnlControlsPanel">
+            <uc:UserImageBox x:Name="usrCtrlUserImageBox"/>
+            <uc:CharactersPerLine
+                x:Name="usrCtrlCharactersPerLine"/>
+            <uc:AsciiStyle x:Name="usrCtrlAsciiStyle"/>
+            <StackPanel x:Name="stkPnlCollapsableStackPanel" Visibility="Collapsed">
+                <!--more options-->
+                <uc:SaturationContrastBoostSlider x:Name="usrCtrlSaturationContrastBoostSlider"/>
+            </StackPanel>
+            <Button x:Name="btnToggleCollapsableStackPanelVisibility" Content="Show More Options ▼" Click="btnToggleCollapsableStackPanelVisibility_Click" Background="Transparent" BorderThickness="0"/>
+            <Button Content="TemporaryConvertButton" x:Name="btnTemporaryConvertButton" Click="btnConvertButton_Click"/>
+        </StackPanel>
+
+        <TextBox Name="txtBoxOutputAscii" Grid.Column="1" FontFamily="Courier New" KeyUp="txtBoxOutputAscii_KeyUp"/>
+    </Grid>
+</Window>

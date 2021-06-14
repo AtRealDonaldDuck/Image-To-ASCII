@@ -1,0 +1,40 @@
+﻿<UserControl 
+    x:Name="AsciiStyleUserControl"
+    x:Class="UserInterface.UserControls.AsciiStyle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UserInterface"
+             mc:Ignorable="d" 
+             MinHeight="60" MinWidth="200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btnAddCharacterSlot" Content="+" ToolTip="Add a slot for a new ASCII character" Grid.Column="1" Grid.Row="0"
+                Click="MenuItem_AddCharacter_Click"/>
+        <Button x:Name="btnRemoveCharacterSlot" Content="-" ToolTip="Remove the rightmost slot for an ASCII character" Grid.Column="1" Grid.Row="1"
+                Click="MenuItem_RemoveCharacter_Click"/>
+
+        <Border x:Name="brdrBlackToWhiteGradient" Grid.Row="0"  BorderThickness="1" BorderBrush="Black" MouseEnter="borderBlackToWhiteGradient_MakeReverseButtonVisible" MouseLeave="borderBlackToWhiteGradient_MakeReverseButtonInvisible">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop x:Name="grdntStpLeft" Offset="0" Color="#000000"/>
+                    <GradientStop x:Name="grdntStpRight" Offset="1" Color="#ffffff"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Button x:Name="btnReverseGradient" Content="↔" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Click="btnReverseGradient_Click" MouseEnter="borderBlackToWhiteGradient_MakeReverseButtonVisible"/>
+
+        <Grid x:Name="grdCharactersPanel" Grid.Row="1">
+            <!--The elements added to this grid are done so through the inner C# code, as of writing this the element should only include text boxes-->
+        </Grid>
+    </Grid>
+</UserControl>
