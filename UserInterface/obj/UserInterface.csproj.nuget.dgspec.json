@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\UserInterface.csproj": {}
+    "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\UserInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj": {
+    "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
         "projectName": "ImageToAsciiClassLibrary",
-        "projectPath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
+        "projectPath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\UserInterface.csproj": {
+    "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\UserInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\UserInterface.csproj",
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\UserInterface.csproj",
         "projectName": "UserInterface",
-        "projectPath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\UserInterface.csproj",
+        "projectPath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\UserInterface.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\obj\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +96,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj"
+              "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj"
               }
             }
           }

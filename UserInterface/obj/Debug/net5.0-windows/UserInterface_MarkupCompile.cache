@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\A\Desktop\ImageToAsciiConverterDesktopTest\UserInterface\obj\Debug\net5.0-windows\
+C:\Users\A\Desktop\Image-To-ASCII\UserInterface\obj\Debug\net5.0-windows\
 UserInterface
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\A\Desktop\ImageToAsciiConverterDesktopTest\UserInterface\App.xaml
+C:\Users\A\Desktop\Image-To-ASCII\UserInterface\App.xaml
 5-1398747156
 
 7-1891145754
-19571283136
+1951327366309
 MainWindow.xaml;UserControls\AsciiStyle.xaml;UserControls\CharactersPerLine.xaml;UserControls\SaturationContrastBoostSlider.xaml;UserControls\UserImageBox.xaml;
 
 False

@@ -1,1 +1,0 @@
-FOR THE EXECUTABLE GO TO ImageToAsciiConverterDesktop\UserInterface\bin\Debug\net5.0-windowsUserInterface.exe

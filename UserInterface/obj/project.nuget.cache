@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPgrGmiriDiP0RC7cFr9aiJ9OpAYs6BGlAy+N47DX8l0u+y8JMRcy7bYWvVwL5paNCGQsBwtjCyGoCWeTL0MrQ==",
+  "dgSpecHash": "7EYiyI9n8Xd/dv86kS7BM15WGBxBMKgckhqFxjttQOoclVDOa7kpUYlcC5YhI4P0PpsTylkpOvj73yWmRx/91w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\UserInterface\\UserInterface.csproj",
+  "projectFilePath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\UserInterface\\UserInterface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",

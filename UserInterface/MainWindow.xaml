@@ -23,7 +23,7 @@
                 <uc:SaturationContrastBoostSlider x:Name="usrCtrlSaturationContrastBoostSlider"/>
             </StackPanel>
             <Button x:Name="btnToggleCollapsableStackPanelVisibility" Content="Show More Options ▼" Click="btnToggleCollapsableStackPanelVisibility_Click" Background="Transparent" BorderThickness="0"/>
-            <Button Content="TemporaryConvertButton" x:Name="btnTemporaryConvertButton" Click="btnConvertButton_Click"/>
+            <Button Content="Convert" x:Name="btnTemporaryConvertButton" Click="btnConvertButton_Click"/>
         </StackPanel>
 
         <TextBox Name="txtBoxOutputAscii" Grid.Column="1" FontFamily="Courier New" KeyUp="txtBoxOutputAscii_KeyUp"/>

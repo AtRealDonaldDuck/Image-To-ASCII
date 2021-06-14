@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f8r38Dg4radfLkQbcIH7qZT8OQbzKXkKXeo5S9MtthFCO9HhbbKPkZ0GXeZXyRompRKzCdmW4D4fsOnF9qwtGQ==",
+  "dgSpecHash": "cHeWys/97qK3zDdVilti0h7L89StvKbIpF5GXf/lsmeIUg6Z5jwbIQYzRzXu5yf7QX3gzogKUKXdleYV4brkiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\Desktop\\ImageToAsciiConverterDesktopTest\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\A\\Desktop\\Image-To-ASCII\\ImageToAsciiClassLibrary\\ImageToAsciiClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
