@@ -2,7 +2,7 @@
 Convert images to ASCII art
 
 ## Description
-To automate the creation ASCII art by passing :an image, ASCII Style(explained in the ASCIISTYLE section) and the number of desired characters through to an algorithm that takes those inputs and outputs ASCII art.
+To automate the creation of ASCII art by passing an image, ASCII Style(explained in the ASCIISTYLE section) and the number of desired characters through to an algorithm that takes those inputs and outputs ASCII art.
 
 ## Guides
 ### How To Open The Application
